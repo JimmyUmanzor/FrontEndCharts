@@ -7,26 +7,16 @@ export const getSumaSalario = async ()=>{
 
 }
 
+export const getProductoMoneda = async ()=>{
 
-/*
-export const getCountDepartamento = async ()=>{
-
-    const response = await axios.get('http://localhost:5000/count-deparment');
+    const response = await axios.get(`http://localhost:5000/contar-productos-moneda`);
     return response.data
 
 }
 
+export const getValorProducto = async ()=>{
 
-export const getDeptos = async ()=>{
-
-    const response = await axios.get(`http://localhost:5000/departamentos`);
+    const response = await axios.get(`http://localhost:5000/valor-producto-tipo`);
     return response.data
 
 }
-
-export const getSalarioMaximo = async (departmentId:number)=>{
-
-    const response = await axios.get(`http://localhost:5000/maximo-salario-departamento/${departmentId}`);
-    return response.data
-
-} */

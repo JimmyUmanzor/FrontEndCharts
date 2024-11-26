@@ -14,17 +14,16 @@ export default function NavBar() {
                 <Link className="nav-link active" href="/suma">Salarios por Departamento</Link>
             </li>
             <li className="nav-item">
-                <Link   className="nav-link active" href="/count">                      
-                Despidos (Count)
-                </Link>
+                <Link   className="nav-link active" href="/producto"> Productor por Moneda </Link>
           
             </li>
+
             <li className="nav-item">
-                <Link  className="nav-link active" href="/suma">
-                        Diferencia Salario (SUM)
-                </Link>
+                <Link   className="nav-link active" href="/valorProducto"> Suma de Valores por Tipo de Producto </Link>
           
             </li>
+        
+
             <li className="nav-item">
                 <Link className="nav-link" href="/">Inicio</Link>
             </li>
